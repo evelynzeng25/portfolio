@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evelyn Zeng Portfolio</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">Evelyn Zeng</h1>
+            <nav class="nav-links">
+                <div class="nav-center">
+                    <a href="#aboutme">About Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="nav-right">
+                    <a href="https://www.linkedin.com/in/zengevelyn" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:ezeng@umich.edu">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2 class="intro-text">Hi, I'm Evelyn.  </h2>
+            <h3 class="role">
+                <svg class="marquee" viewBox="0 -20 500 80" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        id ="curve"
+                        d="M-50,30 C125,120 375,-20 550,30"
+                        fill="transparent"
+                      
+                    />
+                    <text>
+                        <textPath id="marquee-path" href="#curve" startOffset="0">
+                            Storyteller | Strategist | Marketer | Creative Problem Solver | Storyteller | Strategist | Marketer | Creative Problem Solver | Storyteller | Strategist | Marketer | Creative Problem Solver | Storyteller | Strategist | Marketer | Creative Problem Solver
+                        </textPath>
+                    </text>
+                </svg>
+            </h3>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="aboutme" class="aboutme-section">
+        <div class="aboutme-container">
+            <div class="aboutme-text">
+                <h2>About Me</h2>
+                <p> I'm a senior at the University of Michigan, earning my BBA in Marketing with a minor in UX Design. From crafting marketing campaigns and analyzing audience engagement to producing films and leading creative teams, I thrive at the intersection of strategy and storytelling. Whether it’s driving measurable results or bringing bold ideas to life, I’m passionate about making an impact in the media and entertainment industry—and having fun while doing it! </p>
+        
+            </div>
+            <div class="aboutme-image" data-ref="mixitup-item">
+                <img src="../images/ZengEvelyn_Headshot.png" alt="Evelyn Zeng headshot">
+            </div>
+        </div>   
+    </section>
+    
+    
+
+    <!-- Portfolio Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="filter-controls">
+                <button type="button" class="filter-btn" data-filter="all">All</button>
+                <button type="button" class="filter-btn" data-filter=".marketing">Marketing</button>
+                <button type="button" class="filter-btn" data-filter=".film">Film/Media</button>
+                <button type="button" class="filter-btn" data-filter=".other">Other</button>
+            </div>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card mix marketing">
+                    <h3 class="project-title">Outfront Media</h3>
+                    <p class="project-description">
+                        Transforming insights into impact, I designed over 40 pieces of content tailored to diverse client needs using Adobe InDesign and PowerPoint.                     </p>
+                    <a href="outfront-media.html" class="learn-more">Learn More</a>
+                </div>
+                 <!-- Project 2 -->
+                <div class="project-card mix marketing">
+                    <h3 class="project-title">Informa</h3>
+                    <p class="project-description">
+                        At Informa, I played a pivotal role in planning and executing the Content Marketing Institute’s flagship event,  <a href="https://www.contentmarketingworld.com" target="_blank" rel="noopener noreferrer">Content Marketing World</a>. I managed logistics, created engaging content, and ensured seamless execution to enhance the attendee experience.                     </p>
+                    <a href="informa.html" class="learn-more">Learn More</a>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card mix marketing">
+                    <h3 class="project-title">Michigan Advertising and Marketing</h3>
+                    <p class="project-description">
+                        Leading a team of creative minds, I collaborated with a local Ann Arbor business to develop and execute impactful marketing initiatives.                     </p>
+                    <a href="mam.html" class="learn-more">Learn More</a>
+                </div>
+                    <!-- Film Project -->
+                <div class="project-card mix film">
+                    <h3 class="project-title">"Benny and the Jets" Documentary</h3>
+                    <p class="project-description">I co-produced and co-directed a documentary about a student band on campus.</p>
+                    <a href="documentary.html" class="learn-more">Learn More</a>
+                </div>
+                   <!-- EMC Project -->
+                   <div class="project-card mix other">
+                    <h3 class="project-title">LA Professional Trek</h3>
+                    <p class="project-description">As VP External of Ross's Entertainment and Media Club, I organized a Professional Trek for club members.</p>
+                    <a href="latrek.html" class="learn-more">Learn More</a>
+                </div>
+                <div>
+                   <!-- Short Film Project -->
+                   <div class="project-card mix film">
+                    <h3 class="project-title">Short Film</h3>
+                    <p class="project-description">I created a short film for my film class.</p>
+                    <a href="shortfilm.html" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </div>         
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <h2>Resume</h2>
+            <!-- Resume Preview Button -->
+            <a href="../resume/Zeng_Evelyn_Resume.pdf" download="Zeng_Evelyn_Resume.pdf" class="resume-preview">
+                <div class="resume-preview-content">
+                    <p>Click to Download</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Let's collaborate! Reach me at <a href="mailto:ezeng@umich.edu">ezeng@umich.edu</a>.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Evelyn Zeng. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+<!-- JavaScript -->
+<script>
+    //smooth scrolling that also offsets for sticky header//
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
+            const offset = document.querySelector('.site-header').offsetHeight; // Header height
+            const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY - offset;
+
+            window.scrollTo({
+                top: elementPosition,
+                behavior: "smooth",
+            });
+        });
+    });
+</script>
+
+<script>
+    // Initialize MixItUp for the headshot animation
+    var mixer = mixitup('.aboutme-container', {
+        animation: {
+            duration: 700, // Animation duration in milliseconds
+            effects: 'fade scale(0.8)', // Fade and scale animation
+            easing: 'ease-in-out', // Easing effect
+        },
+        callbacks: {
+            onMixStart: function(state, futureState) {
+                // Add `mixitup-active` class to trigger CSS transitions
+                document.querySelectorAll('.aboutme-image img').forEach(img => {
+                    img.classList.add('mixitup-active');
+                });
+            },
+        },
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Select the image you want to animate
+        const image = document.querySelector('.aboutme-image img');
+
+        // Create an Intersection Observer
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        // Add the animation class when the section is visible
+                        image.classList.add('mixitup-active');
+                    } else {
+                        // Remove the animation class when the section is not visible
+                        image.classList.remove('mixitup-active');
+                    }
+                });
+            },
+            {
+                threshold: 0.5, // Trigger when 50% of the section is visible
+            }
+        );
+
+        // Observe the section containing the image
+        const aboutMeSection = document.querySelector('.aboutme-section');
+        observer.observe(aboutMeSection);
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const textPath = document.querySelector("#marquee-path");
+        let offset = 0; // Initial startOffset value
+
+        // Function to animate the text along the path
+        function animateTextPath() {
+            offset -=.2; // Increase the offset to move the text
+            if (offset < -100) {
+                offset = 0; // Reset offset to create a loop
+            }
+            textPath.setAttribute("startOffset", `${offset}%`);
+            requestAnimationFrame(animateTextPath); // Keep animating
+        }
+
+        animateTextPath(); // Start the animation
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Initialize MixItUp
+        var container = document.querySelector('.project-grid');
+        var mixer = mixitup(container, {
+            selectors: {
+                target: '.project-card'
+            },
+            animation: {
+                duration: 300
+            }
+        });
+
+        // Add active state to filter buttons
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        filterButtons.forEach((button) => {
+            button.addEventListener('click', function () {
+                document.querySelector('.filter-btn.active')?.classList.remove('active');
+                button.classList.add('active');
+            });
+        });
+    });
+</script>
+
+<script src="js/mixitup.min.js"></script>
+
+</body>
+</html>
+
+

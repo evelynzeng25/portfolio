@@ -1,0 +1,98 @@
+/* Header */
+.site-header {
+    position: static;
+}
+
+/* Project Visual (Logo/Image) */
+.project-visual img {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+/* Project Details Section */
+.project-details {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.project-details div {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.project-details h3 {
+    font-size: 1.5rem;
+    color: #002244;
+    margin-bottom: 10px;
+}
+
+.project-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-details ul li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Project Description Section */
+.project-description {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-description h3 {
+    font-size: 2rem;
+    color: #002244;
+    margin-bottom: 15px;
+}
+
+.project-description p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f9;
+    color: #555;
+}
+
+.site-footer .back-to-projects {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site-footer .back-to-projects:hover {
+    color: #FFA500;
+}
